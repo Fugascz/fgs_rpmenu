@@ -15,6 +15,6 @@ ESX.RegisterServerCallback('fgs-rpmenu:getPlayerData', function(source, cb)
         name = xPlayer.getName(),
         dob = xPlayer.get('dateofbirth')
     }
-
+ 
     cb(data)
 end)
